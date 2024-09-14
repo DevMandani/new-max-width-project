@@ -1,0 +1,71 @@
+.theme{
+    background-color: black;
+}
+
+
+.sun{
+    display: none;
+}
+
+.container{
+    max-width:1400px;
+    
+    margin:auto;
+
+    padding: 20px;
+}
+.swipe{
+     
+      padding: 10px;
+    
+}
+.swipe > div{
+    
+    
+
+}
+.new-slider-img{
+width:65%;
+
+}
+.other-new-slider{
+    background-color: aliceblue;
+}
+
+.container1{
+    
+    margin-top:100px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    padding: 10px;
+}
+.subboxes{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+
+
+
+
+.container1{
+    margin-top: 100px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    /* border: 1px solid black; */
+    width: 25%;
+    padding: 10px;
+}
