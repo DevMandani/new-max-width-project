@@ -391,7 +391,7 @@ li:hover{
     display: none;
 }
 .slick-next:before{
-    content: "➡️";
+    /* content: "➡️"; */
     color:black;
     display: block;
 }
@@ -421,7 +421,7 @@ li:hover{
 .other-display{
     display: flex;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 5px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -455,20 +455,21 @@ box-shadow: 1px 1px 4px orange;
 }
 
 .slick-next:before{
-    content: "➡️" !important;
+    /* content: "➡️" !important; */
 }
 
 .slick-next{
-    right:30px !important;
+    /* right:30px !important; */
 }
 
 .slick-prev::before{
-    content: "⬅️" !important;
+    /* content: "⬅️" !important; */
 }
 
 .slick-prev{
-    left: 30px !important;
+    /* left: 30px !important;
     z-index: 100;
+    border:78px solid red; */
 }
 
 
@@ -627,7 +628,9 @@ box-shadow: 1px 1px 4px orange;
 
 
 
-
+.image-slider{
+    width:100%; 
+}
 
 
 

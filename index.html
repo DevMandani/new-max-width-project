@@ -78,19 +78,19 @@
 
 <section class="fadedown">
    <div class="container-fluid h  mt-100">
-    <div class="slider fade ">
+    <div class="slider fade   ">
         <div>
-            <div class="image ">
+            <div class="image h-500">
                 <img class="w-1" src="img/apple logo.jpg" />
             </div>
         </div>
         <div>
-            <div class="image ">
+            <div class="image h-500 ">
                 <img class="w-1"  src="img/thoughts.jpg" />
             </div>
         </div>
-        <div>
-            <div class="image ">
+        <div class=" ">
+            <div class="image h-500 ">
                 <img class="w-1"  src="img/history.jpg" />
             </div>
         </div>
@@ -355,7 +355,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="w-3 w-xl-3 w-lg-3 w-md-2 w-sm-1 ">
+                <div class="w-3 w-xl-3 w-lg-3 w-md-2 w-sm-1 d-md-flex d-sm-flex d-xs-flex">
         <figure class="snip1171">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71"/>
             <div class="price">Designer</div>
@@ -367,7 +367,7 @@
             </figcaption>
         </div>
           </figure>
-          <div class="w-3 w-xl-3 w-lg-3 w-md-2 w-sm-1">
+          <div class="w-3 w-xl-3 w-lg-3 w-md-2 w-sm-1 d-md-flex d-sm-flex d-xs-flex">
           <figure class="snip1171 blue hover">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg" alt="sample47"/>
             <div class="price">Web Devloper</div>
@@ -379,7 +379,7 @@
             </figcaption>
           </figure>
         </div>
-        <div class="w-3 w-xl-3 w-lg-3 w-md-2 w-sm-1">
+        <div class="w-3 w-xl-3 w-lg-3 w-md-2 w-sm-1 d-md-flex d-sm-flex d-xs-flex">
           <figure class="snip1171 orange">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample52.jpg" alt="sample52"/>
             <div class="price">Hacker</div>
@@ -457,6 +457,10 @@
 
 
     <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="w-1">
+                    
         <div class="slider autoplay">
             <div class="new-black">
                 <div class="small-slider b-shadow">
@@ -469,9 +473,10 @@
                 </div>
            
 
-                
+              
                 
             </div>
+             
             <div class="new-black">
                 <div class="small-slider b-shadow">
            
@@ -533,6 +538,9 @@
             </div>
         </div>
 
+        </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -642,7 +650,7 @@
                                </div>
                                 <div class="social-overlap process-scetion mt100">
                                  <div class="container">
-                                     <div class="row justify-content-center">
+                                     <div class="row justify-content-center w-xl-1 w-md-1 w-lg-1 w-sm-1 w-xs-1">
                                          <div class="col-md-10">
                                              <div class="social-bar">
                                                  <div class="social-icons mb-3 iconpad text-center">
@@ -719,9 +727,10 @@
  $('.autoplay').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
+  dots:false,
   autoplay: true,
   autoplaySpeed: 1000,
-});
+ })
 </script>
 
 <script>
